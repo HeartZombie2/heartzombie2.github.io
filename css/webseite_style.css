@@ -1,0 +1,154 @@
+body{
+  font-family:times,serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color: #EFEFEF;
+}
+  /*Global*/
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+  }
+
+.dark{
+  padding: 5px 15px 15px 15px;
+  background: #a9a9a9;
+  color: white;
+/*  margin-top: 15px;
+  margin-bottom: 15px;*/
+  margin: 20px 0 15px 0;
+}
+/*Header*/
+
+header{
+  background-color: #a9a9a9;
+  color: #ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #FF3B3F 5px solid;
+
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: capitalize;
+  font-size: 18x;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #Willkommen_header{
+  float:left;
+}
+header #Willkommen_header h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top: 15px;
+}
+header .highlight, header .current a{
+  color:#FF3B3F;
+  font-weight:bold;
+}
+header a:hover{
+  color:#Caebf2;
+  font-weight:bold;
+}
+/*Willkommen_section*/
+
+#Willkommen_section{
+  min-height: 400px;
+  background: url(../img/37781805542_63d4bc22de_k.jpg) no-repeat 0 -200px ;
+  text-align: center;
+  color:#FF3B3F;
+  border-bottom: #FF3B3F 5px solid;
+}
+#Willkommen_section h1{
+  margin-top: 15px;
+  font-size: 50px;
+  margin-bottom: 180px;
+}
+#Willkommen_section p{
+  font-size: 20px;
+}
+/*kurzvorsellungen*/
+
+#kurzvorsellungen{
+  margin-top:20px;
+}
+#kurzvorsellungen .kurzvorstellung{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding:12px;
+
+}
+#kurzvorsellungen .kurzvorstellung img{
+  width:200px;
+}
+#kurzvorsellungen .kurzvorstellung a{
+  color: black;
+  text-decoration:none;
+  text-transform: capitalize;
+  font-size: 18x;
+
+}
+/*Sidebar*/
+
+aside#sidebar{
+  float: right;
+  width: 33%;
+  margin-top: 10px;
+}
+/*main*/
+
+article#main{
+  float: left;
+  width: 66%
+}
+/*footer*/
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #FF3B3F;
+  color: white;
+  text-align: center;
+}
+/*Media Queries*/
+
+@media(max-width: 768px){
+  header#Willkommen_header,
+  header nav,
+  header nav li,
+  #kurzvorsellungen .kurzvorstellung,
+  article#main,
+  aside#sidebar
+{
+    float: none;
+    text-align: center;
+    width: 100%
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+  #Willkommen_section h1{
+    margin-top: 14px;
+    margin-bottom: auto;
+  }
+
+}
