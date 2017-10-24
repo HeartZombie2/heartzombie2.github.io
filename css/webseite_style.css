@@ -59,7 +59,8 @@ header nav{
   float:right;
   margin-top: 15px;
 }
-header .highlight, header .current a{
+header .highlight,
+header .current a{
   color:#FF3B3F;
   font-weight:bold;
 }
@@ -88,6 +89,7 @@ header a:hover{
 
 #kurzvorsellungen{
   margin-top:20px;
+  margin-bottom: 60px;
 }
 #kurzvorsellungen .kurzvorstellung{
   float: left;
@@ -106,7 +108,7 @@ header a:hover{
   font-size: 18x;
 
 }
-/*Sidebar*/ 
+/*Sidebar*/
 
 aside#sidebar{
   float: right;
@@ -130,6 +132,7 @@ footer{
   position: fixed;
   bottom: 0px;
   width: 100%;
+  margin-top: 100PX;
 }
 /*Media Queries*/
 
